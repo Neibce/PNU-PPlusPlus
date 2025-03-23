@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
     // 사용자의 학과 정보를 가져오는 메소드
     private String getUserDepartment() {
         SharedPreferences sharedPref = getSharedPreferences("com.pnuppp.pplusplus.user_info", MODE_PRIVATE);
-        return sharedPref.getString("major", ""); // 기본값은 빈 문자열
+        return sharedPref.getString("major", "정보컴퓨터공학부 컴퓨터공학전공"); // 기본값은 빈 문자열
     }
 
     private boolean isRssDepartment(String department) {

@@ -2,7 +2,7 @@
   "project_info": {
     "project_number": "965317569864",
     "project_id": "pplusplus-c11dc",
-    "storage_bucket": "pplusplus-c11dc.appspot.com"
+    "storage_bucket": "pplusplus-c11dc.firebasestorage.app"
   },
   "client": [
     {
@@ -10,6 +10,25 @@
         "mobilesdk_app_id": "1:965317569864:android:496a5d165b421de125177d",
         "android_client_info": {
           "package_name": "com.pnuppp.pplusplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeV0Vr6tIqHbGnuQJUYP4ur7mseFofzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965317569864:android:6a07677fff41892f25177d",
+        "android_client_info": {
+          "package_name": "com.pnuppp.ppp"
         }
       },
       "oauth_client": [],

@@ -197,8 +197,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         libraryInfoDept.put("대학원 공지사항", "https://lais.pusan.ac.kr/bbs/lais/15733/rssList.do?row=50");
         libraryInfoDept.put("학과 소식", "https://lais.pusan.ac.kr/bbs/lais/15734/rssList.do?row=50");
         libraryInfoDept.put("취업공고", "https://lais.pusan.ac.kr/bbs/lais/15740/rssList.do?row=50");
-
-
         departmentRSSMap.put("문헌정보학과", libraryInfoDept);
 
         // 미디어커뮤니케이션학과 (RSS 피드 없음)
@@ -365,7 +363,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         englisheduDept.put("대학원게시판", "https://englishedu.pusan.ac.kr/bbs/englishedupnu/8790/rssList.do?row=50");
         englisheduDept.put("구인구직", "https://englishedu.pusan.ac.kr/bbs/englishedupnu/8792/rssList.do?row=50");
         englisheduDept.put("교직과정안내", "https://englishedu.pusan.ac.kr/bbs/englishedupnu/9039/rssList.do?row=50");
-
         departmentRSSMap.put("영어교육과", englisheduDept);
 
         // 독어교육과
@@ -382,7 +379,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         Map<String, String> edDept = new HashMap<>();
         edDept.put("전체공지사항", "https://ed.pusan.ac.kr/bbs/ed/2768/rssList.do?row=50");
         edDept.put("취업정보", "https://ed.pusan.ac.kr/bbs/ed/2772/rssList.do?row=50");
-
         departmentRSSMap.put("교육학과", edDept);
 
         // 유아교육과
@@ -390,8 +386,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         childDept.put("학부공지사항", "https://child.pusan.ac.kr/bbs/child/3129/rssList.do?row=50");
         childDept.put("대학원공지사항", "https://child.pusan.ac.kr/bbs/child/3131/rssList.do?row=50");
         childDept.put("취업게시판", "https://child.pusan.ac.kr/bbs/child/3132/rssList.do?row=50");
-
-
         departmentRSSMap.put("유아교육과", childDept);
 
         // 특수교육과
@@ -400,7 +394,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         specialDept.put("일대원", "https://special.pusan.ac.kr/bbs/special/3795/rssList.do?row=50");
         specialDept.put("교대원", "https://special.pusan.ac.kr/bbs/special/3796/rssList.do?row=50");
         specialDept.put("취업게시판", "https://special.pusan.ac.kr/bbs/special/3797/rssList.do?row=50");
-
         departmentRSSMap.put("특수교육과", specialDept);
 
         // 일반사회교육과
@@ -408,15 +401,12 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         socialeduDept.put("학과 공지사항", "https://socialedu.pusan.ac.kr/bbs/socialedu/4102/rssList.do?row=50");
         socialeduDept.put("학생회 공지사항", "https://socialedu.pusan.ac.kr/bbs/socialedu/4103/rssList.do?row=50");
         socialeduDept.put("채용공고", "https://socialedu.pusan.ac.kr/bbs/socialedu/17668/rssList.do?row=50");
-
-
         departmentRSSMap.put("일반사회교육과", socialeduDept);
 
         // 역사교육과
         Map<String, String> hiseduDept = new HashMap<>();
         hiseduDept.put("공지사항", "https://hisedu.pusan.ac.kr/bbs/hisedu/3361/rssList.do?row=50");
         hiseduDept.put("채용정보", "https://hisedu.pusan.ac.kr/bbs/hisedu/3366/rssList.do?row=50");
-
         departmentRSSMap.put("역사교육과", hiseduDept);
 
         // 지리교육과
@@ -428,8 +418,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         Map<String, String> ethicsDept = new HashMap<>();
         ethicsDept.put("얼바람말글장", "https://ethics.pusan.ac.kr/bbs/ethics/4351/rssList.do?row=50");
         ethicsDept.put("채용공고", "https://ethics.pusan.ac.kr/bbs/ethics/12455/rssList.do?row=50");
-
-
         departmentRSSMap.put("윤리교육과", ethicsDept);
 
         // 수학교육과
@@ -438,14 +426,12 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         matheduDept.put("대학원 공지사항", "https://mathedu.pusan.ac.kr/bbs/mathedu/2698/rssList.do?row=50");
         matheduDept.put("교육대학원 공지사항", "https://mathedu.pusan.ac.kr/bbs/mathedu/2697/rssList.do?row=50");
         matheduDept.put("취업,과외게시판", "https://mathedu.pusan.ac.kr/bbs/mathedu/2700/rssList.do?row=50");
-
         departmentRSSMap.put("수학교육과", matheduDept);
 
         // 물리교육과
         Map<String, String> physeduDept = new HashMap<>();
         physeduDept.put("공지사항", "https://physedu.pusan.ac.kr/bbs/physedu/3403/rssList.do?row=50");
         physeduDept.put("구인/구직", "https://physedu.pusan.ac.kr/bbs/physedu/4338/rssList.do?row=50");
-
         departmentRSSMap.put("물리교육과", physeduDept);
 
         // 화학교육과
@@ -461,8 +447,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         edubioDept.put("교육대학원 공지사항", "https://edubio.pusan.ac.kr/bbs/edubio/4243/rssList.do?row=50");
         edubioDept.put("대학원 공지사항", "https://edubio.pusan.ac.kr/bbs/edubio/4240/rssList.do?row=50");
         edubioDept.put("임용게시판", "https://edubio.pusan.ac.kr/bbs/edubio/4233/rssList.do?row=50");
-
-
         departmentRSSMap.put("생물교육과", edubioDept);
 
         // 지구과학교육과
@@ -472,8 +456,6 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         earthDept.put("교육대학원 지구과학교육전공 공지사항", "https://earth.pusan.ac.kr/bbs/earth/4708/rssList.do?row=50");
         earthDept.put("교육대학원 환경교육전공 공지사항", "https://earth.pusan.ac.kr/bbs/earth/4709/rssList.do?row=50");
         earthDept.put("취업정보게시판", "https://earth.pusan.ac.kr/bbs/earth/4690/rssList.do?row=50");
-
-
         departmentRSSMap.put("지구과학교육과", earthDept);
 
         // 체육교육과
@@ -740,6 +722,7 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         cseDept.put("학부 공지", "https://cse.pusan.ac.kr/bbs/cse/2605/rssList.do?row=50");
         cseDept.put("대학원 공지", "https://cse.pusan.ac.kr/bbs/cse/2611/rssList.do?row=50");
         cseDept.put("졸업과제 공지사항", "https://cse.pusan.ac.kr/bbs/cse/2606/rssList.do?row=50");
+        cseDept.put("수업게시판", "https://cse.pusan.ac.kr/bbs/cse/2615/rssList.do?row=50");
         cseDept.put("채용게시판", "https://cse.pusan.ac.kr/bbs/cse/2616/rssList.do?row=50");
         cseDept.put("경진대회안내", "https://cse.pusan.ac.kr/bbs/cse/12278/rssList.do?row=50");
         cseDept.put("기타행사안내", "https://cse.pusan.ac.kr/bbs/cse/2617/rssList.do?row=50");
@@ -750,6 +733,7 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         aiDept.put("학부 공지", "https://cse.pusan.ac.kr/bbs/cse/2605/rssList.do?row=50");
         aiDept.put("대학원 공지", "https://cse.pusan.ac.kr/bbs/cse/2611/rssList.do?row=50");
         aiDept.put("졸업과제 공지사항", "https://cse.pusan.ac.kr/bbs/cse/2606/rssList.do?row=50");
+        aiDept.put("수업게시판", "https://cse.pusan.ac.kr/bbs/cse/2615/rssList.do?row=50");
         aiDept.put("채용게시판", "https://cse.pusan.ac.kr/bbs/cse/2616/rssList.do?row=50");
         aiDept.put("경진대회안내", "https://cse.pusan.ac.kr/bbs/cse/12278/rssList.do?row=50");
         aiDept.put("기타행사안내", "https://cse.pusan.ac.kr/bbs/cse/2617/rssList.do?row=50");
@@ -762,7 +746,7 @@ public class RSSDepartmentNoticeActivity extends AppCompatActivity {
         departmentRSSMap.put("의생명융합공학부", bioconvergenceDept); // 대학원 공지 RSS가 없기 때문에 학부 공지만 추가
 
 
-        //첨단융합학부(2025 신설)
+        // 첨단융합학부(2025 신설)
         // 첨단융합학부 나노자율전공
         Map<String, String> nanoMajor = new HashMap<>();
         nanoMajor.put("공지사항", "https://u-nano.pusan.ac.kr/bbs/u-nano/18379/rssList.do?row=50");

@@ -57,11 +57,11 @@ public class ExtraCurricularActivity extends AppCompatActivity {
         swipeRefreshLayout.setColorSchemeColors(getResources().getIntArray(R.array.spinner_colors));
         swipeRefreshLayout.setRefreshing(true);
 
-        fetchRSSFeed("http://ppp.jun0.dev:3333/?page=1&sort=approach", true);
+        fetchRSSFeed("https://ppp.jun0.dev/?page=1&sort=approach", true);
 
         findViewById(R.id.retryButton).setOnClickListener(v -> {
             swipeRefreshLayout.setRefreshing(true);
-            fetchRSSFeed("http://ppp.jun0.dev:3333/?page=1&sort=" + sortBy, true);
+            fetchRSSFeed("https://ppp.jun0.dev/?page=1&sort=" + sortBy, true);
         });
 
         RadioGroup radioGroup = findViewById(R.id.radioGroup);
@@ -71,11 +71,11 @@ public class ExtraCurricularActivity extends AppCompatActivity {
             if (checkedId == R.id.radioButton1) sortBy = "approach";
             else if (checkedId == R.id.radioButton2) sortBy = "applicant";
             else if (checkedId == R.id.radioButton3) sortBy = "date";
-            fetchRSSFeed("http://ppp.jun0.dev:3333/?page=1&sort=" + sortBy, true);
+            fetchRSSFeed("https://ppp.jun0.dev/?page=1&sort=" + sortBy, true);
         });
 
         swipeRefreshLayout.setOnRefreshListener(() -> {
-            fetchRSSFeed("http://ppp.jun0.dev:3333/?page=1&sort=" + sortBy, true);
+            fetchRSSFeed("https://ppp.jun0.dev/?page=1&sort=" + sortBy, true);
         });
 
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -85,7 +85,7 @@ public class ExtraCurricularActivity extends AppCompatActivity {
                 if (!recyclerView.canScrollVertically(1) && !isOnDownloading && currentPage < MAX_PAGE) {
                     Log.i("NF", "onScrolled: END");
 
-                    fetchRSSFeed("http://ppp.jun0.dev:3333/?page=" + (++currentPage) + "&sort=" + sortBy, false);
+                    fetchRSSFeed("https://ppp.jun0.dev/?page=" + (++currentPage) + "&sort=" + sortBy, false);
                 }
             }
         });
